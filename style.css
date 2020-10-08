@@ -1,0 +1,77 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.container {
+    background-color: #ededed;
+    width: fit-content;
+    margin: auto;
+    margin-top: 35px;
+}
+
+.showResult {
+    padding: 0px 18px 18px 18px;
+}
+
+.showResult button {
+    width: 100%;
+    background-color: #48c;
+    color: #fff;
+    border: none;
+    font-size: 50px;
+	padding: 0px
+}
+
+.keys {
+    display: flex;
+}
+
+.display {
+    padding: 18px 18px 0px 18px;
+}
+
+.numbers {
+    padding: 18px 9px 18px 18px;
+}
+
+.operations{
+    padding: 18px 18px 18px 9px;
+}
+
+.operations button {
+    display: block;
+    width: 54px;
+    height: 54px;
+    padding: 9px 15px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+}
+
+#result {
+    background-color: #666;
+    color: #eee;
+    padding: 9px;
+}
+
+.numbers div{
+    text-align: center;
+}
+
+.numbers button{
+    border: 0px;
+    background-color: #fff;
+    transition: all 0.09;
+}
+
+.numbers button:hover {
+    box-shadow: 0px 0px 12px #aaa;
+}
+
+button {
+    margin: 2px 0px;
+    padding: 15px 24px;
+    font-size: 19px;
+}
